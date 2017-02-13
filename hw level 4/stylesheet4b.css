@@ -1,0 +1,23 @@
+h1{
+    font-size:180px;
+    color:pink; 
+        
+}
+h2{
+    font-size:60px;
+    float:right;
+    color:rebeccapurple;
+}
+#right{
+    font-size:18px;
+    font-family: fantasy;
+    color:deeppink;
+    letter-spacing:40px;
+}
+
+#left{
+    font-size:18px;
+    letter-spacing: 40px;
+    font-family: fantasy;
+    color:deeppink;
+}
