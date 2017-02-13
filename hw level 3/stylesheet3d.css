@@ -1,0 +1,10 @@
+#right{ 
+    border:2px solid pink; 
+    float:right;
+}
+#left{
+    border:2px solid red;
+    float:left;
+
+}
+

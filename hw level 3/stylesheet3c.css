@@ -1,0 +1,20 @@
+
+h1 { border: 10px solid #000000;
+float:right;}
+h4 {
+    border: 10px solid #000000;
+float:right;
+} 
+
+h7{
+     float:right;
+}
+h8{
+    float:right
+}
+h9{
+    float:left;
+}
+span{
+    border:10px solid pink
+}
