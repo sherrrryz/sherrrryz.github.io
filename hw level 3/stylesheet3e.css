@@ -8,5 +8,12 @@
     padding:300px;
 }
 header{
-    
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 200px;
+    z-index: -1;
+}
+
+body{
+    z-index: 0;
 }
