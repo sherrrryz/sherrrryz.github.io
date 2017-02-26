@@ -1,0 +1,37 @@
+header{
+    color: hotpink;
+    font-size: 40px;
+    font-family:monospace;
+    font-display:optional;
+    margin: inherit;
+    font-weight: bold;
+    text-align: center;
+    padding: 100px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 200px;
+    z-index: +1;
+}
+}
+
+body{ background-color: lightcyan;
+}
+
+#right{
+    background-color: azure;
+    margin: 100px;100px;100px;100px;
+    text-align:center;
+    font-size: 10px;
+    text-shadow color:pink;
+    color:pink;
+
+}
+
+#left{
+    background-color: lightcyan;
+    margin: 100px;100px;100px;100px;
+    text-align:center;
+    font-size: 10px;
+    text-shadow color:pink;
+    color:pink;
+}
