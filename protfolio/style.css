@@ -78,29 +78,31 @@ ol#menu li a:hover {
 }
 
 #main>.r {
-  margin-left: 5px;
+  margin-left: 20px;
   float:right;
  width: 170px;
+  
  
 }
 #main>.c {
-  width: 550px;
+  width: 500px;
   margin-top: auto;
 }
 
 #main>.l{
   width: 20%; 
   Float:left;
+  margin-right: 30px;
 }
 
-}
+
 .sep {
   background: white fixed center center;
   height: 1px;
-  margin: 30px 0 10px 0;
+  margin: 30px 10px 20px 10px;
   overflow: visible;
   position: relative;
-  width: 30px;
+  width: 20px;
 }
 
 
@@ -125,9 +127,7 @@ p,
   font-size: 14px;
   font-weight: normal;
 }
-h4 {
-  text-transform: uppercase;
-}
+
 .sep h4 {
   margin: 0;
   white-space: nowrap;
