@@ -203,3 +203,13 @@ ol {
   padding: 0;
 }
 
+footer {
+               position:relative;
+               margin-top: -60px;/*等于footer的高度*/ height: 30px;
+               clear:both;
+               text-align: center;
+               font-size: 12px;
+               padding: 10px;
+               color:gray;
+            }
+
