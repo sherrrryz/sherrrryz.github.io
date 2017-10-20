@@ -1,0 +1,27 @@
+h1{
+    font-family: sans-serif;
+    font-size:50px;
+    color:red;
+}
+h2{
+    font-family: sans-serif;
+    font-size:20px;
+    color:darkred;
+}
+header{
+    padding: 200px;
+}
+#right{
+    float: right;
+    font-size:20px;
+    font-family: serif;
+    color:darkblue;
+    border-bottom: 5px solid darkred;
+}
+#left{
+    float:left
+    font-size:20px;
+    color:darkblue;
+    font-family: serif;
+    border-top: 5px solid darkred;width: 300px;
+}

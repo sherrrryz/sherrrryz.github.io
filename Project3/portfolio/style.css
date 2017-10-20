@@ -1,0 +1,215 @@
+
+body {
+  color: #3e3432;
+}
+body {
+  background: url("img/css/html-bg.png") top left;
+  margin: 40px 0 30px 40px;
+  padding-top: 1px;
+  width: 940px;
+}
+a {
+  color:#3e3432;
+  outline: none;
+}
+a:hover {
+  color: #6e5d59;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  transition: color 0.3s;
+}
+#head {
+  min-height: 2em;
+  position: relative;
+  margin: 0 0 40px 0;
+}
+#logo {
+  display: inline-block;
+}
+#logo a:active 
+
+img {
+  margin: 1px 0 -1px;
+}
+ol#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 240px;
+}
+ol#menu li {
+  display: inline-block;
+  margin-right: 40px;
+}
+ol#menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3e3432;
+}
+ol#menu li a:hover {
+  color: #6e5d59;
+}
+#main {
+  overflow: hidden;
+}
+#main img {
+  max-width: 100%;
+  
+  
+}
+#main a {
+  font-style: italic;
+}
+#main>.l,
+#main>.c,
+#main>.r {
+  width: 100px;
+  
+  
+}
+#main>.c{
+  margin-left: 10px;
+  float:left;
+  
+}
+
+#main>.r {
+  margin-left: 20px;
+  float:right;
+ width: 170px;
+  
+ 
+}
+#main>.c {
+  width: 500px;
+  margin-top: auto;
+}
+
+#main>.l{
+  width: 20%; 
+  Float:left;
+  margin-right: 30px;
+}
+
+
+.sep {
+  background: white fixed center center;
+  height: 1px;
+  margin: 30px 10px 20px 10px;
+  overflow: visible;
+  position: relative;
+  width: 20px;
+}
+
+
+
+}
+
+  2.  Typo
+/*------------------------------------------------------------------------*/
+body {
+  font: 14px/21px 'PT Sans', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+}
+#main a,
+.sep h4 {
+  font-family: 'PT Serif', 'Georgia', serif;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+.list {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.sep h4 {
+  margin: 0;
+  white-space: nowrap;
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*--------------------------------------------------------------------------
+  3.  Portfolios
+/*------------------------------------------------------------------------*/
+.folio {
+  width: 550px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.folio li {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.folio li img {
+  height: 190px;
+  margin-bottom: -15px;
+}
+.folio li,
+.folio li img {
+  width: 250px;
+}
+.sfolio {
+  list-style: none;
+  margin-left: 200px;
+  margin-top:-320px;
+  padding: 0;
+  overflow: hidden;
+  width:500px;
+  
+}
+.sfolio li {
+  float: left;
+  line-height: 0;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.sfolio li,
+.sfolio li img {
+  width: 460px;
+  
+}
+
+
+}
+/* lists */
+.post li {
+  margin-left: 2em;
+}
+ul {
+  list-style: square outside none;
+}
+ol {
+  list-style: decimal outside none;
+}
+ul,
+ol {
+  list-style-position: outside;
+  padding: 0;
+}
+
+footer {
+               position:relative;
+               margin-top: -60px;/*等于footer的高度*/ height: 30px;
+               clear:both;
+               text-align: center;
+               font-size: 12px;
+               padding: 10px;
+               color:gray;
+            }
+

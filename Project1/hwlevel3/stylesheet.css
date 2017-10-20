@@ -1,0 +1,14 @@
+body{
+    background-color: pink
+}
+
+margin{
+    40px;50px;40px;50px;
+}
+
+div{ 
+  color:brown
+}
+div div{
+    color:blue
+}

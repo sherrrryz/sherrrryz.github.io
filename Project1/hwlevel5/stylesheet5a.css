@@ -1,0 +1,25 @@
+#right{
+    padding:50px;
+}
+
+#left{
+    
+    padding:50px;
+}
+header{
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 200px;
+    z-index: -1;
+    color:cornflowerblue;
+    border:5px;
+    
+}
+
+body{
+    z-index: 0;
+    color:pink;
+    background-color: lightcyan;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2 Column Float Layout
+        </title>
+        <style>
+            header{background: lightpink;}
+            Nav{background: lightyellow;}
+            p{background: lightgreen;}
+            footer{background: lightblue;}      
+        
+            /*Meriaqueries layout */
+                 @media screen and (min-width:600px){
+                body{
+                    background:lightcyan} 
+                nav{
+                         float:left;
+                         width:25%;
+                     }
+                section{
+                         float:left;
+                         width:75%;
+                     }
+                footer{
+                         clear:both;
+                     }
+            }
+                @media screen and (max-width:599px) {
+                body{
+                        background:skyblue;
+                     }
+                nav li{
+                        display: inline;
+                         }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>welcome to my webiste</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a ></li>
+                <li><a href="">About</a ></li>
+                <li><a href="">Contact</a ></li>
+            </ul>
+        </nav>
+        <section>
+           <h2>
+           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc neque, pulvinar ac dui sit amet, sodales porta nisl. Sed feugiat convallis metus. Nam vitae tempus quam, ac feugiat enim. Duis et urna sed mauris dapibus viverra sodales ac massa. Quisque id augue quis lacus vehicula ornare sed eget ipsum. Etiam convallis at nunc ut tempus. Cras hendrerit risus in lacus imperdiet placerat. Praesent volutpat ac risus quis congue. Nam porta tempus condimentum.</p >
+        </h2></section>
+    </body>
+    <footer>&copy;y2017 web preference</footer>
+</html>
